@@ -28,7 +28,7 @@ With all this information in mind, I drafted a firs attend to solve this brain t
 var bulbs = new bool[bulb];
 
 for (int p = 1; p <= people; p++)
-   for (int b = p; b <= bulb; l++)
+   for (int b = p; b <= bulb; b++)
       if (b % p == 0)
          bulbs[b - 1] = !bulbs[b - 1];
 Now, as you may noticed bulb and people are meant to be input variables, so you can enter 100 people for 100 bulbs or 50 people for 100 bulbs or 100 people for 50 bulbs, this way it makes the solution more generic but you can fix the solution to 100.
@@ -41,7 +41,7 @@ The if statement confirms that the bulb (b) is a multiple of the current person 
 
 bulbs[b - 1] = !bulbs[b - 1];  assigns the opposite that it has at the moment. Meaning if index 6 was ON (true) this statement will assign the opposition (NOT, in C# is ! ) which is false, in our case would be OFF.
 
-Now, This is as far a can go by helping you solve this brain teaser, but for a full code sample visit my github at http://codechavez.com/#/100_bulbs_brain_teaser
+Now, This is as far a can go by helping you solve this brain teaser
 
 
 
