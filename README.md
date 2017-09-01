@@ -1,7 +1,7 @@
 # 100-Bulbs-Brain-Teaser
 This is a simple solution to the 100 Bulbs brain teaser done in C#
 
-Visit http:codechavez.com
+Visit http://codechavez.com
 
 100 Bulbs brain teaser is a very popular exercise that senior or lead likes to present to the interviewee in order to measure solving problem skills and how the candidate response to pressure. So, the exercise goes like this
 
